@@ -1,0 +1,422 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+section {
+  margin: 30px 0;
+  /* padding: 30px 0; */
+}
+
+span {
+  color: #fc9c40;
+}
+
+/* HEADER SECTION */
+.hero {
+  margin: 0;
+}
+header .inner {
+  background: #00000e;
+}
+
+header .inner .logo img {
+  width: 50px;
+  padding: 10px;
+  float: left;
+}
+
+header .inner ul li {
+  list-style: none;
+  float: left;
+  padding: 0 5px;
+  font-size: 12px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .inner .col-md-8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .logo h3 {
+  color: #fff;
+  float: left;
+  margin: 0;
+}
+
+header .col-md-4 .logo {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+header .inner ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header .inner ul li a:hover {
+  color: #dfdfdf;
+  font-weight: 700;
+}
+
+/* 
+HERO SECTION */
+
+.hero .inner {
+  background: url(img/bg1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 550px;
+}
+.hero .inner .content {
+  margin-top: 35px;
+}
+.hero .inner h1 {
+  font-size: 24px;
+}
+
+.hero .inner h1 {
+  font-size: 90px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 10px;
+}
+
+.hero .inner h5 {
+  color: #fc9c40;
+  font-size: 18px;
+  letter-spacing: 6px;
+}
+
+/* ABOUT SECTION */
+.about .row {
+  align-items: center;
+  padding-top: 15px;
+}
+.about img {
+  width: 200px;
+}
+.about h2 {
+  text-align: center;
+}
+.about .content {
+  background: #fc9c40;
+  padding: 30px 20px;
+  width: 357px;
+  float: right;
+  color: #fff;
+}
+
+.about .double-border {
+  position: relative;
+  border: 3px solid #fc9c40;
+  width: fit-content;
+  padding: 30px;
+}
+.about .double-border:before {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: -20px;
+  left: 15px;
+  right: -20px;
+  bottom: 15px;
+  border: 3px solid #fc9c40;
+}
+
+/* SPECIAL MENU SECTION */
+section.special-memu {
+  text-align: center;
+  margin-top: 15px;
+}
+
+section.special-memu .content {
+  background: url(img/bg2.png);
+  background-size: contain;
+}
+section.special-memu .content img {
+  width: 250px;
+  border-radius: 10px;
+  /* padding: 10px; */
+  margin: 10px;
+}
+
+/* MENU2 SECTION */
+section.menu-2 {
+  text-align: center;
+}
+
+section.menu-2 .content {
+  align-items: center;
+  justify-content: center;
+}
+
+section.menu-2 .content img {
+  width: 200px;
+  margin: 20px;
+  border-radius: 30px;
+  min-height: 140px;
+}
+
+section.menu-2 .content p {
+  margin: 0;
+}
+
+/* PARTNER SECTION */
+
+.partner .row {
+  text-align: center;
+}
+.partner .brands img {
+  width: 200px;
+  margin: 0 10px;
+}
+.partner .brands {
+  background: url(img/bg2.png);
+  background-size: contain;
+}
+
+/* RESERVATION SECTION */
+
+section.reservation {
+  background: url(img/bg3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  margin-bottom: 0;
+}
+
+section.reservation .row {
+  justify-content: center;
+  align-items: center;
+}
+
+section.reservation .inner {
+  background: #fc9c40;
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+
+section.reservation a {
+  color: #fc9c40;
+  background: #000000a1;
+  border: 1px solid #fc9c40;
+  padding: 10px;
+  text-decoration: none;
+}
+
+section.reservation .link {
+  margin: 20px 0 30px;
+}
+
+section.reservation a:hover {
+  background: #fc9c40;
+  color: #000;
+  font-weight: bold;
+}
+
+.reservation input[type="text"] {
+  width: 45%;
+  float: left;
+  margin: 5px;
+  border-bottom: 1px solid #fff;
+}
+
+.reservation div {
+  width: 100% !important;
+}
+
+.reservation input[type="phone"],
+.reservation input[type="date"],
+.reservation input[type="time"] {
+  width: 30%;
+  float: left;
+  margin: 5px;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.reservation form input {
+  background: transparent;
+  border: none;
+}
+
+.reservation textarea {
+  width: 100%;
+  margin: 5px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+
+.reservation form ::placeholder {
+  font-style: italic;
+  color: #fff;
+  padding: 5px;
+}
+
+.reservation button {
+  padding: 5px 20px;
+  margin: 15px 0 8px;
+  border-radius: 5px;
+  background: #000000bd;
+  color: #fff;
+}
+
+.reservation button:hover {
+  color: #fc9c40;
+  background: #524f49;
+}
+
+/* FOOTER SECTION */
+
+footer {
+  background: #fc9c40;
+  color: #fff;
+  padding: 30px 0;
+}
+footer .contact a {
+  text-decoration: none;
+  text-align: center;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 15px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+footer .contact a:hover {
+  background: #fff;
+  color: #fc9c40;
+}
+
+footer .social {
+  margin: 30px 0;
+}
+
+footer .social a {
+  color: #fff;
+  margin: 5px 3px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+footer .social a:hover {
+  color: #fc9c40;
+  background: #fff;
+}
+footer .contact {
+  margin: 30px 0;
+}
+
+footer .row .col-md-6:last-child {
+  text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  .hero .inner {
+    max-height: 355px;
+  }
+  .hero .inner h1 {
+    font-size: 70px;
+  }
+  .about .content {
+    width: auto;
+  }
+}
+@media screen and (max-width: 430px) {
+  .hero .inner .content {
+    margin-top: 10px;
+  }
+  .hero .inner {
+    max-height: 190px;
+  }
+  .hero .inner h1 {
+    font-size: 35px;
+  }
+  .hero .inner h5 {
+    font-size: 8px;
+  }
+  .about .content {
+    width: auto;
+  }
+  section.about {
+    margin: 0px;
+  }
+
+  .about .row {
+    padding: 0;
+  }
+
+  .about .content {
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .about .double-border {
+    width: 270px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .about img {
+    width: 70%;
+  }
+
+  .partner .brands img {
+    margin: 15px;
+  }
+
+  .reservation div {
+    width: auto !important;
+  }
+
+  .reservation input[type="text"] {
+    width: 100%;
+  }
+
+  input[type="phone"] {
+    width: 100%;
+  }
+
+  .reservation input[type="phone"] {
+    width: 70%;
+  }
+  .reservation input[type="date"],
+  .reservation input[type="time"] {
+    width: 47%;
+    float: left;
+  }
+
+  footer .text-right {
+    margin-top: 10px;
+  }
+
+  footer {
+    text-align: center !important;
+  }
+  footer .content {
+    text-align: left;
+    margin: 15px;
+  }
+
+  footer .row .col-md-6:last-child {
+    text-align: center;
+    margin-top: 15px;
+  }
+}
